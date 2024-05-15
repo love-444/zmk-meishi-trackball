@@ -1,2 +1,2 @@
 config SHIELD_MEISHI_TRACKBALL
-	def_bool $(shield_list_contains,meishi-trackball)
+	def_bool $(shields_list_contains,meishi-trackball)
