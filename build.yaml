@@ -2,7 +2,7 @@ on: [workflow_dispatch]
 
 jobs:
   build:
-    uses: petejohanson/zmk/.github/workflows/build-user-config.yml@main
+    uses: petejohanson/zmk/.github/workflows/build-user-config.yml@feat/pointers-move-scroll
     
 include:
   - board: nice_nano_v2
