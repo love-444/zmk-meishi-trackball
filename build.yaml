@@ -6,4 +6,4 @@ jobs:
     ---
 include:
   - board: nice_nano_v2
-    shield: <my_shield>
+    shield: meishi_trackball
