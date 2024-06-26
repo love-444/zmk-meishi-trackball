@@ -52,8 +52,8 @@
                 /* slienting x-axis with alt event code */
                 x-input-code = <INPUT_REL_MISC>;
                 y-input-code = <INPUT_REL_WHEEL>;
-                scale-multiplier = <1>;
-                scale-divisor = <33>;
+                scale-multiplier = <33>;
+                scale-divisor = <1000>;
 
                 /* invent scrolling direction */
                 y-invert;
