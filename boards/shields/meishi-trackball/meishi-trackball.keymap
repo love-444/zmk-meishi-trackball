@@ -6,6 +6,10 @@
 #define MSK 0 // mouse key layer
 #define MSC 1 // mouse scoll layer
 
+#define INPUT_EV_REL 0x02
+#define INPUT_REL_X 0x00
+#define INPUT_REL_Y 0x01
+
 &encoder {
 	status = "okay";
 };
