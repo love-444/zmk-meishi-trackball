@@ -3,14 +3,14 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/petejohanson
     - name: badjeff
-      url-base: https://github.com/badjeff
+      url-base: https://github.com/love-444
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: feat/pointers-move-scroll
       import: app/west.yml
     - name: zmk-pmw3610-driver
-      remote: badjeff
+      remote: love-444
       revision: main
   self:
     path: config
