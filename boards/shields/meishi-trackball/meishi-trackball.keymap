@@ -8,12 +8,23 @@
 };
 
 / {
+	behaviors {
+        	rot_bt: sensor_rotate_bt {
+            		compatible = "zmk,behavior-sensor-rotate";
+            		#sensor-binding-cells = <0>;
+            		bindings = <&bt BT_NXT>, <&bt BT_CLR>;
+        	};
+    	};
 	keymap {
 		compatible = "zmk,keymap";
 
 		default_layer {
-			bindings = <&kp A &kp B &kp C>;
-			sensor-bindings = <&inc_dec_kp D E>;
+			bindings = <&mkp RCLK &mkp LCLK &to 1>;
+			sensor-bindings = <&inc_dec_kp PGUP PGDN>;
 		};
+		scroll_layer {
+			bindings = <&to 0 &to 0 &mkp MCLK>;
+		 	sensor-bindings	= <&bt_behavior>;
+ 		};
 	};
 };
