@@ -24,7 +24,7 @@
                 device = <&trackball>;
 
                 /* only enable in default layer (DEF) & mouse key layer (MSK) */
-                layers = <DEF MSK>;
+                layers = <MSK>;
 
                 /* event code value to override raw input event */
                 /* designed for switching to mouse scroll, xy-swap, precise-mode+, etc */
