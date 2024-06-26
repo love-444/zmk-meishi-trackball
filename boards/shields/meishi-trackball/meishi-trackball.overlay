@@ -38,7 +38,7 @@
         y-input-code = <0x01>;
 
         /*   optional features   */
-        scroll-layers = <1>
+        scroll-layers = <1>;
     };
 };
 
