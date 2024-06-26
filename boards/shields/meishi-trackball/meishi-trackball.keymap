@@ -9,7 +9,7 @@
 
 / {
 	behaviors {
-        	rot_bt: sensor_rotate_bt {
+        	rot_bt: bt_behavior {
             		compatible = "zmk,behavior-sensor-rotate";
             		#sensor-binding-cells = <0>;
             		bindings = <&bt BT_NXT>, <&bt BT_CLR>;
