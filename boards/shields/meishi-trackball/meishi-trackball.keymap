@@ -50,10 +50,9 @@
                 evt-type = <INPUT_EV_REL>;
                 
                 /* slienting x-axis with alt event code */
-                x-input-code = <INPUT_REL_MISC>;
+                x-input-code = <INPUT_REL_HWHEEL>;
                 y-input-code = <INPUT_REL_WHEEL>;
-                scale-multiplier = <33>;
-                scale-divisor = <1000>;
+                scale-divisor = <12>;
 
                 /* invent scrolling direction */
                 y-invert;
