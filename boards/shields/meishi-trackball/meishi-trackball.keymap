@@ -33,7 +33,7 @@
                 x-input-code = <INPUT_REL_X>;
                 y-input-code = <INPUT_REL_Y>;
                 scale-multiplier = <1>;
-                scale-divisor = <1>;
+                scale-divisor = <10>;
 
                 /* align to CCW 45 degree */
                 rotate-deg = <315>;
