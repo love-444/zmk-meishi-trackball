@@ -36,9 +36,6 @@
 	evt-type = <0x02>;
         x-input-code = <0x00>;
         y-input-code = <0x01>;
-
-        /*   optional features   */
-        scroll-layers = <1>;
     };
 };
 
