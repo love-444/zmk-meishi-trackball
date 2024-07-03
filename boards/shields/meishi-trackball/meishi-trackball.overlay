@@ -18,7 +18,7 @@
     };
 };
 
-&spi0 {
+&spi1 {
     status = "okay";
     compatible = "nordic,nrf-spim";
     pinctrl-0 = <&spi0_default>;
